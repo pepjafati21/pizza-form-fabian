@@ -1,0 +1,150 @@
+/* My Font */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Stle */
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    padding: 20px;
+}
+
+.judul {
+    font-family: "Permanent Marker", cursive;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* Header Style */
+header {
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+}
+header h1 {
+    font-size: 30px;
+}
+
+header p {
+    font-style: italic;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Promo Style */
+section h2 {
+    color: darkgreen;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Menu Style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid green;
+    padding: 12px;
+}
+
+th {
+    background-color: green;
+}
+
+/* Order Style */
+form {
+    background-color: #e8dfdf;
+    box-shadow: 0 0 10px rgb(3, 74, 3);
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select{
+    width: 100%;
+    padding: 8px 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid darkgreen;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select{
+    border: 2px solid rgb(64, 185, 64);
+    outline: none;
+}
+
+.label-form {
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid darkgreen;
+}
+
+button[type="submit"] {
+    background-color: green;
+    width: 100%;
+    padding: 8px 4px;
+    color: white;
+    border-radius: 5px;
+    border: rgb(3, 59, 3);
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+[type="reset"] {
+    background-color: lightgray;
+    width: 100%;
+    padding: 8px 4px;
+    color: black;
+    border-radius: 5px;
+    border: 10px darkgreen;
+    margin-top: 5px;
+}
+
+button[type="reset"]:hover {
+    cursor: pointer;
+    background-color: lightcoral;
+}
+
+/* Kontak Style */
+#kontak p {
+    border: 2px solid green;
+    padding: 7px;
+    width: max-content;
+    margin: 15px auto;
+}
+
+/* Footer Style */
+footer {
+    background-color: green;
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 20px;
+}

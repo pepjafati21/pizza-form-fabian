@@ -5,104 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Pemesanan Pizza</title>
     <link rel="shortcut icon" href="pizza.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
-     <header>
-        <h1>Form Pemesanan Pizza</h1>
-        <p>Pizza panas, lezat, dan bergizi🍕</p>
-
-        <nav>
-            <a href="#order">Pesan Sekarang</a>
-            <a href="#menu">Lihat Menu</a>
-            <a href="#kontak">Kontak Kami</a>
-        </nav>
-     </header>
-
-    <!-- Section Promo -->
-     <promo>
-        <h2>Promo Hari Ini</h2>
-        <img src="promo.jpg" alt="Promo Pizza" width="300"> 
-        <p><mark>Diskon 30%</mark>untuk pizza yang berukuran besar</p>
-        <ul>
-            <li>Rotinya Empuk</li>
-            <li>Harga Terjangkau</li>
-            <li>Kaya Akan Rempah</li>
-        </ul>
-     </promo>
-
-     <!-- Section Menu -->
-      <section id="menu">
-        <table border=""1>
-            <tr>
-                <th>Nama</th>
-                <th>Ukuran</th>
-                <th>Harga</th>
-            </tr>
-            <tr>
-                <td>Pizza Moza</td>
-                <td>Large</td>
-                <td>Rp220.000</td>
-            </tr>
-            <tr>
-                <td>Pizza Mercon</td>
-                <td>Medium</td>
-                <td>Rp150.000</td>
-            </tr>
-            <tr>
-                <td>Pizza Jamur</td>
-                <td>Small</td>
-                <td>R110.000</td>
-            </tr>
-        </table>
-      </section>
-
-      <!-- Section Form Order -->
-       <section id="order">
-        <h2>Pesan Disini</h2>
-        <form action="https://formspree.io/f/xppapryv" method="post">
-            <label for="pemesan">Nama Pemesanan</label><br>
-            <input id="pemesan" type="text" name="pemesan"><br><br>
-
-            <label for="email">Email Pemesanan</label><br>
-            <input id="email" type="email" name="email"><br><br>
-
-            <label for="">Size Pizza</label><br>
-            <select name="ukuran" id="ukuran">
-                <option value="Small">Small</option>
-                <option value="Medium">Medium</option>
-                <option value="Large">Large</option>
-            </select>
-
-            <p>Pilih Topping:</p>
-            <input type="checkbox" name="toping" value="Keju" id="keju"> <label for="keju">Keju</label>
-            <input type="checkbox" name="toping" value="Jamur" id="jamur"> <label for="jamur">Jamur</label>
-            <input type="checkbox" name="toping" value="Nanas" id="nanas"> <label for="nanas">Nanas</label>
-
-            <p>Jenis Saus</p>
-            <input type="radio" name="saus" value="Saus BBQ" id="Saus BBQ"> <label for="Saus BBQ">Saus BBQ</label>
-            <input type="radio" name="saus" value="Saus Keju" id="Saus Keju"> <label for="Saus Keju">Saus Keju</label>
-            <input type="radio" name="saus" value="Saus Sambal" id="Saus Sambal"> <label for="Saus Sambal">Saus Sambal</label>
-
-            <br><br><label for="catatan">Catatan</label>
-            <br><textarea name="" id="catatan" cols="50" rows="5"></textarea>
-
-            <br><button type="submit">Pesan Sekarang</button>
-
-        </form>
-       </section>
-
-       <!-- Section Contact Us -->
-        <section id="kontak">
-            <h2>Kontak Kami</h2>
-            <p>📍Jl. Sukadamai, Kab Bogor, Jaw Barat</p>
-            <p>📞 <a target="_blank" href="https://wa.me/6281996220909?text=Halo%20Saya%20Mau%20Pesan%20Pizza">=+6281996220909</a></p>
-            <p>✉️ <a href="mailto:fabianbucek@gmail.com">fabianbucek@gmail.com</a></p>
-        </section>
-
-        <footer>
-            <hr>
-            <p>&copy; 2026 Ammar's Pizza. All right reserved.</p>
-        </footer>
+    <div class="container">
+        <!-- Header -->
+         <header>
+            <h1 class="judul">Form Pemesanan Pizza</h1>
+            <p>Pizza panas, lezat, dan bergizi🍕</p>
+    
+            <nav>
+                <a href="#order">Pesan Sekarang</a>
+                <a href="#menu">Lihat Menu</a>
+                <a href="#kontak">Kontak Kami</a>
+            </nav>
+         </header>
+    
+        <!-- Section Promo -->
+         <section>
+            <h2 class="judul">Promo Hari Ini</h2>
+            <img src="promo.jpg" alt="Promo Pizza" width="300"> 
+            <p><mark>Diskon 30%</mark>untuk pizza yang berukuran besar</p>
+            <ul>
+                <li>Rotinya Empuk</li>
+                <li>Harga Terjangkau</li>
+                <li>Kaya Akan Rempah</li>
+            </ul>
+         </section>
+    
+         <!-- Section Menu -->
+          <section id="menu">
+            <table border=""1>
+                <tr>
+                    <th>Nama</th>
+                    <th>Ukuran</th>
+                    <th>Harga</th>
+                </tr>
+                <tr>
+                    <td>Pizza Moza</td>
+                    <td>Large</td>
+                    <td>Rp220.000</td>
+                </tr>
+                <tr>
+                    <td>Pizza Mercon</td>
+                    <td>Medium</td>
+                    <td>Rp150.000</td>
+                </tr>
+                <tr>
+                    <td>Pizza Jamur</td>
+                    <td>Small</td>
+                    <td>R110.000</td>
+                </tr>
+            </table>
+          </section>
+    
+          <!-- Section Form Order -->
+           <section id="order">
+            <h2 class="judul">Pesan Disini</h2>
+            <form action="https://formspree.io/f/xppapryv" method="post">
+                <label class="label-form" for="pemesan">Nama Pemesanan</label><br>
+                <input id="pemesan" type="text" name="pemesan"><br><br>
+    
+                <label class="label-form" for="email">Email Pemesanan</label><br>
+                <input id="email" type="email" name="email"><br><br>
+    
+                <label class="label-form" for="ukuran">Size Pizza</label><br>
+                <select name="ukuran" id="ukuran">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+    
+                <p class="label-form" >Pilih Topping:</p>
+                <input type="checkbox" name="toping" value="Keju" id="keju"> <label style="margin-right: 10px;" for="keju">Keju</label>
+                <input type="checkbox" name="toping" value="Jamur" id="jamur"> <label style="margin-right: 10px;" for="jamur">Jamur</label>
+                <input type="checkbox" name="toping" value="Nanas" id="nanas"> <label style="margin-right: 10px;" for="nanas">Nanas</label>
+    
+                <p class="label-form" >Jenis Saus</p>
+                <input type="radio" name="saus" value="Saus BBQ" id="Saus BBQ"> <label style="margin-right: 10px;" for="Saus BBQ">Saus BBQ</label>
+                <input type="radio" name="saus" value="Saus Keju" id="Saus Keju"> <label style="margin-right: 10px;" for="Saus Keju">Saus Keju</label>
+                <input type="radio" name="saus" value="Saus Sambal" id="Saus Sambal"> <label style="margin-right: 10px;" for="Saus Sambal">Saus Sambal</label>
+    
+                <br><br><label class="label-form" for="catatan">Catatan</label>
+                <br><textarea name="" id="catatan" rows="5"></textarea>
+    
+                <br><button type="submit">Pesan Sekarang</button>
+                <br><button type="reset">Reset</button>
+    
+            </form>
+           </section>
+    
+           <!-- Section Contact Us -->
+            <section id="kontak">
+                <h2 class="judul">Kontak Kami</h2>
+                <p>📍Jl. Sukadamai, Kab Bogor, Jaw Barat</p>
+                <p>📞 <a target="_blank" href="https://wa.me/6281996220909?text=Halo%20Saya%20Mau%20Pesan%20Pizza">+6281996220909</a></p>
+                <p>✉️ <a href="mailto:fabianbucek@gmail.com">fabianbucek@gmail.com</a></p>
+            </section>
+    
+            <footer>
+                <hr>
+                <p>&copy; 2026 Fabian's Pizza. All right reserved.</p>
+            </footer>
+    </div>
+    
 </body>
 </html>`
